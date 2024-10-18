@@ -6,4 +6,13 @@
 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getFullYear
 
-console.log("Hello, World!");
+// script.js
+
+// Update the footer year dynamically
+document.addEventListener("DOMContentLoaded", function() {
+    const yearSpan = document.getElementById("year");
+    yearSpan.textContent = new Date().getFullYear();
+  });
+  
+  console.log("Hello, World!");
+  
